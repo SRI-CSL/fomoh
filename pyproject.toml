@@ -1,0 +1,14 @@
+[project]
+name = "fomoh"
+version = "0.0.1"
+authors = [
+  { name="Adam Cobb", email="adam.cobb@sri.com" },
+]
+description = "A forward-mode autodiff library based on pytorch"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD 2-Clause License",
+    "Operating System :: OS Independent",
+]

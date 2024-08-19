@@ -1,0 +1,55 @@
+program: ../train.py
+project: BP
+name: tune_cnn_bp
+description: "cnn"
+# method: grid
+method: bayes
+metric:
+  name: best_loss_valid
+  goal: minimize
+parameters:
+  model:
+    value: cnn
+  method:
+    values: ['BP']
+  epochs:
+    value: 500
+  device:
+    value: 'cuda:0'
+  lr:
+    distribution: log_uniform_values
+    min: 0.005
+    max: 0.2
+    # values:
+    # - 0.000001
+    # - 0.000005
+    # - 0.00001
+    # - 0.00005
+    # - 0.0001
+    # - 0.0005
+    # - 0.001
+  # lr_decay:
+  #   # value: 0.8
+  #   min: 0.5
+  #   max: 0.95
+  clip_mode:
+    value: 'none'
+  clip_value:
+    value: 0.
+    # min: 0.5
+    # max: 25.
+  epsilon:
+    value: 0.0
+    # min: 0.000001
+    # max: 0.001
+  weight_decay:
+    value: 0.
+  batch_size:
+    value: 2048
+    # values: [128, 512, 1024, 2048, 4096]
+  num_workers:
+    value: 8
+  loss_min:
+    value: 0.
+  loss_max:
+    value: 10.
