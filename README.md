@@ -1,4 +1,4 @@
-# Fomoh
+![Fomoh Logo](https://github.com/SRI-CSL/fomoh/blob/main/fomoh-logo.png)
 
 PyTorch-based library that implements nested forward AD and interfaces with
 PyTorch models.
