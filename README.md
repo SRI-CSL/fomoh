@@ -2,11 +2,11 @@
 
 Fomoh is a PyTorch-based library that implements nested forward AD and interfaces with PyTorch models.
 
-* For additional details, please refer to our paper: [Second-Order Forward-Mode Automatic Differentiation for Optimization](http://arxiv.org/abs/2408.10419)
-
 * Perform forward-mode automatic differentiation over functions in PyTorch to get first and second order information.
 * Train neural network models using forward-mode automatic differentiation.
 * Includes first-order [FGD](https://arxiv.org/pdf/2202.08587) and our proposed approach of [FoMoH-KD](http://arxiv.org/abs/2408.10419).
+
+For additional details, please refer to our paper: [Second-Order Forward-Mode Automatic Differentiation for Optimization](http://arxiv.org/abs/2408.10419)
 
 To run the code, from this directory location you can install the fomoh Python package:
 ```
