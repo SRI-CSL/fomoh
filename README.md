@@ -17,9 +17,6 @@ pip install .
 * For basic usage and an introduction please refer to this [tutorial](https://adamcobb.github.io/journal/fomoh.html) that covers the content of this notebook: `Fomoh_Rosenblock_Example.ipynb`
 * For an example training a neural network check out: `FoMoH_NeuralNetwork.ipynb` (Tutorial to come soon!)
 
-## Blog Posts:
-* They are on their way!
-
 Examples:
 * To run the Rosenbrock example from the paper, in the `./scripts/Rosenbrock` location, run:
 ``` python Rosenbrock_ND_dim_comparison.py --epochs 100 --dim-obj 10 --save-file ./plots/rosenbrock_comparison_plane_dim_comparison_10D.pt --newton ```
