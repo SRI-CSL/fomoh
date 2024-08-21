@@ -2,20 +2,20 @@
 
 Fomoh is a PyTorch-based library that implements nested forward AD and interfaces with PyTorch models.
 
-* Link to paper coming soon!
+* For additional details, please refer to our paper: [Second-Order Optimization without Backpropagation](http://arxiv.org/abs/2408.10419)
 
 * Perform forward-mode automatic differentiation over functions in PyTorch to get first and second order information.
 * Train neural network models using forward-mode automatic differentiation.
-* Includes first-order [FGD](https://arxiv.org/pdf/2202.08587) and our proposed approach of FoMoH-KD.
+* Includes first-order [FGD](https://arxiv.org/pdf/2202.08587) and our proposed approach of [FoMoH-KD](http://arxiv.org/abs/2408.10419).
 
 To run the code, from this directory location you can install the fomoh Python package:
 ```
 pip install .
 ```
 
-## Notebook Tutorials:
-* For basic usage, check out the notebook: `Fomoh_Rosenblock_Example.ipynb`
-* For an example training a neural network check out: `FoMoH_NeuralNetwork.ipynb`
+## Blog posts and Notebook Tutorials:
+* For basic usage and an introduction please refer to this [tutorial](https://adamcobb.github.io/journal/fomoh.html) that covers the content of this notebook: `Fomoh_Rosenblock_Example.ipynb`
+* For an example training a neural network check out: `FoMoH_NeuralNetwork.ipynb` (Tutorial to come soon!)
 
 ## Blog Posts:
 * They are on their way!
@@ -32,16 +32,14 @@ Examples:
 
 Please consider citing the following paper if you use `Fomoh` in your research:
 
-* Link to paper coming soon!
-
-<!-- ```
+```
 @article{cobb2024second,
   title={Second-Order Forward-Mode Automatic Differentiation for Optimization},
   author={Cobb, Adam D and Baydin, Atılım Güneş and Pearlmutter, Barak A. and Jha, Susmit},
-  journal={arXiv},
+  journal={arXiv preprint arXiv:2408.10419},
   year={2024}
 }
-``` -->
+```
 
 ## Acknowledgements
 
