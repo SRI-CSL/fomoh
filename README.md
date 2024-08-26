@@ -15,7 +15,7 @@ pip install .
 
 ## Blog posts and Notebook Tutorials:
 * For basic usage and an introduction please refer to this [tutorial](https://adamcobb.github.io/journal/fomoh.html) that covers the content of this notebook: `Fomoh_Rosenblock_Example.ipynb`
-* For an example training a neural network check out: `FoMoH_NeuralNetwork.ipynb` (Tutorial to come soon!)
+* For training a neural network please refer to [Training Neural Networks using Fomoh](https://adamcobb.github.io/journal/fomoh-neural-network.html)
 
 Examples:
 * To run the Rosenbrock example from the paper, in the `./scripts/Rosenbrock` location, run:
